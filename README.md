@@ -1,5 +1,5 @@
 
-# Representing a Cell Library &mdash; A Software Design Pattern Project
+# Representing a Cell Library: A Software Design Pattern Project
 
 ```
 John MacDonald
@@ -57,11 +57,7 @@ Model           | Description
 -----------     | --------------------------------------------------
 lef             | An abstracted representation of cell physical structure.
 gds             | A detailed representation of cell physical structure.
-lib             | A model of cell electrical and performance characteristics given its 
-operating conditions—temperature and supply voltage—and fabrication 
-variance. Each lib model file has a ‘library’ attribute—a string that 
-identifies it and its operating conditions. A set of operating conditions is 
-termed a “corner.”
+lib             | A model of cell electrical and performance characteristics given its operating conditions—temperature and supply voltage—and fabrication variance. Each lib model file has a ‘library’ attribute—a string that identifies it and its operating conditions. A set of operating conditions is termed a “corner.”
 db              | A compiled form of the lib model.
 
 
@@ -81,40 +77,32 @@ handful of packages:
 Module                              | Descriptions
 --------------                      | --------------------------------------------------
 test.py                             | Top-level executable script 
-                                    | 
 library/component.py                | An abstraction of a library component: a file or a group
 library/file.py                     | Abstract class representing a file
 library/db_file.py                  | Concrete class representing a “db” file
 library/gds_file.py                 | Concrete class representing a “gds” file
 library/lef_file.py                 | Concrete class representing a “lef” file
 library/lib_file.py                 | Concrete class representing a “lib” file
-                                    | 
 library/group.py                    | Abstract class representing a group of files
 library/ip_group.py                 | Concrete class representing an ipgroup
 library/lib_group.py                | Concrete class representing a libgroup
 library/corner_group.py             | A concrete class representing a cornergroup
-                                    | 
 library/library.py                  | A concrete class represeting a collection of components
-                                    |
 entity/entity.py                    | A storable data representation
 entity/file_entity.py               | File storable representation
 entity/cell_entity.py               | Cell storable representation (not used)
-                                    | 
 importer/director.py                | Import director class
 importer/importer.py                | Abstract importer
 importer/json_importer.py           | Concrete JSON importer
 importer/yml_importer.py            | Concrete YAML importer
-                                    | 
 exporter/director.py                | Export director class
 exporter/exporter.py                | Abstract exporter
 exporter/json_exporter.py           | Concrete JSON exporter
 exporter/yml_exporter.py            | Concrete YAML exporter
-                                    | 
 grouper/grouper_template.py         | Abstract group builder template
 grouper/group_builder.py            | A concrete group builder (default)
 grouper/group_re_builder.py         | A concrete modification of group_buildler
 grouper/partitioner.py              | a class implementing the partitioning algorithm
-                                    | 
 yaml/*                              | PyYAML, available from pyyaml.org 
 
 

@@ -1,16 +1,31 @@
 ---
 attributes:
-  library: pgate_alwayson_1.000v_ss_-30c_cw
+  library: pgate_clamps_0.630v_tt_0c_cw
+cells:
+  pgate_vchmb1t02p00: &id001 {}
+  pgate_vchmb1t04p00: *id001
+  pgate_vckmb1t02p00: *id001
+  pgate_vckmb1t04p00: *id001
+  pgate_vclmb1t02p00: *id001
+  pgate_vclmb1t04p00: *id001
+entity: file
+filename: /project/library/example/std/pgate/1.2/LIB/0.630v_tt_0c_cw/pgate_clamps_0.630v_tt_0c_cw.lib
+filetype: LIB
+groups:
+  cornergroup: pgate_clamps_0.630v_tt_0c_cw
+---
+attributes:
+  library: pgate_alwayson_1.155v_ff_125c_cb
 cells:
   pgate_ngpl_aobufp5t20p00: &id001 {}
   pgate_ngpl_aobufp5t24p00: *id001
   pgate_ngpl_aoinvp5f20p00: *id001
   pgate_ngpl_aoinvp5f24p00: *id001
 entity: file
-filename: /project/library/example/std/pgate/1.2/LIB/1.000v_1.000v_ss_-30c_cw/pgate_alwayson_1.000v_ss_-30c_cw.lib
-filetype: LIB
+filename: /project/library/example/std/pgate/1.2/DB/1.155v_1.155v_ff_125c_cb/pgate_alwayson_1.155v_ff_125c_cb.db
+filetype: DB
 groups:
-  cornergroup: pgate_alwayson_1.000v_ss_-30c_cw
+  cornergroup: pgate_alwayson_1.155v_ff_125c_cb
 ---
 attributes:
   library: pgate_alwayson_1.155v_ff_-30c_cw
@@ -26,20 +41,7 @@ groups:
   cornergroup: pgate_alwayson_1.155v_ff_-30c_cw
 ---
 attributes:
-  library: pgate_alwayson_0.630v_tt_0c_cw
-cells:
-  pgate_ngpl_aobufp5t20p00: &id001 {}
-  pgate_ngpl_aobufp5t24p00: *id001
-  pgate_ngpl_aoinvp5f20p00: *id001
-  pgate_ngpl_aoinvp5f24p00: *id001
-entity: file
-filename: /project/library/example/std/pgate/1.2/DB/0.630v_0.630v_tt_0c_cw/pgate_alwayson_0.630v_tt_0c_cw.db
-filetype: DB
-groups:
-  cornergroup: pgate_alwayson_0.630v_tt_0c_cw
----
-attributes:
-  library: pgate_clamps_0.900v_tt_125c_rcw
+  library: pgate_clamps_0.900v_tt_-30c_cw
 cells:
   pgate_vchmb1t02p00: &id001 {}
   pgate_vchmb1t04p00: *id001
@@ -48,10 +50,170 @@ cells:
   pgate_vclmb1t02p00: *id001
   pgate_vclmb1t04p00: *id001
 entity: file
-filename: /project/library/example/std/pgate/1.2/DB/0.900v_tt_125c_rcw/pgate_clamps_0.900v_tt_125c_rcw.db
+filename: /project/library/example/std/pgate/1.2/LIB/0.900v_tt_-30c_cw/pgate_clamps_0.900v_tt_-30c_cw.lib
+filetype: LIB
+groups:
+  cornergroup: pgate_clamps_0.900v_tt_-30c_cw
+---
+attributes:
+  library: pgate_clamps_0.810v_tt_-30c_cw
+cells:
+  pgate_vchmb1t02p00: &id001 {}
+  pgate_vchmb1t04p00: *id001
+  pgate_vckmb1t02p00: *id001
+  pgate_vckmb1t04p00: *id001
+  pgate_vclmb1t02p00: *id001
+  pgate_vclmb1t04p00: *id001
+entity: file
+filename: /project/library/example/std/pgate/1.2/DB/0.810v_tt_-30c_cw/pgate_clamps_0.810v_tt_-30c_cw.db
 filetype: DB
 groups:
-  cornergroup: pgate_clamps_0.900v_tt_125c_rcw
+  cornergroup: pgate_clamps_0.810v_tt_-30c_cw
+---
+attributes:
+  library: pgate_clamps_1.155v_ff_125c_cb
+cells:
+  pgate_vchmb1t02p00: &id001 {}
+  pgate_vchmb1t04p00: *id001
+  pgate_vckmb1t02p00: *id001
+  pgate_vckmb1t04p00: *id001
+  pgate_vclmb1t02p00: *id001
+  pgate_vclmb1t04p00: *id001
+entity: file
+filename: /project/library/example/std/pgate/1.2/DB/1.155v_ff_125c_cb/pgate_clamps_1.155v_ff_125c_cb.db
+filetype: DB
+groups:
+  cornergroup: pgate_clamps_1.155v_ff_125c_cb
+---
+attributes:
+  library: pgate_alwayson_1.155v_ff_-30c_cb
+cells:
+  pgate_ngpl_aobufp5t20p00: &id001 {}
+  pgate_ngpl_aobufp5t24p00: *id001
+  pgate_ngpl_aoinvp5f20p00: *id001
+  pgate_ngpl_aoinvp5f24p00: *id001
+entity: file
+filename: /project/library/example/std/pgate/1.2/DB/1.155v_1.155v_ff_-30c_cb/pgate_alwayson_1.155v_ff_-30c_cb.db
+filetype: DB
+groups:
+  cornergroup: pgate_alwayson_1.155v_ff_-30c_cb
+---
+attributes:
+  library: pgate_alwayson_1.155v_ff_-30c_cw
+cells:
+  pgate_ngpl_aobufp5t20p00: &id001 {}
+  pgate_ngpl_aobufp5t24p00: *id001
+  pgate_ngpl_aoinvp5f20p00: *id001
+  pgate_ngpl_aoinvp5f24p00: *id001
+entity: file
+filename: /project/library/example/std/pgate/1.2/DB/1.155v_1.155v_ff_-30c_cw/pgate_alwayson_1.155v_ff_-30c_cw.db
+filetype: DB
+groups:
+  cornergroup: pgate_alwayson_1.155v_ff_-30c_cw
+---
+attributes:
+  library: pgate_alwayson_0.810v_tt_-30c_cw
+cells:
+  pgate_ngpl_aobufp5t20p00: &id001 {}
+  pgate_ngpl_aobufp5t24p00: *id001
+  pgate_ngpl_aoinvp5f20p00: *id001
+  pgate_ngpl_aoinvp5f24p00: *id001
+entity: file
+filename: /project/library/example/std/pgate/1.2/LIB/0.810v_0.810v_tt_-30c_cw/pgate_alwayson_0.810v_tt_-30c_cw.lib
+filetype: LIB
+groups:
+  cornergroup: pgate_alwayson_0.810v_tt_-30c_cw
+---
+attributes:
+  library: pgate_clamps_0.630v_tt_0c_cw
+cells:
+  pgate_vchmb1t02p00: &id001 {}
+  pgate_vchmb1t04p00: *id001
+  pgate_vckmb1t02p00: *id001
+  pgate_vckmb1t04p00: *id001
+  pgate_vclmb1t02p00: *id001
+  pgate_vclmb1t04p00: *id001
+entity: file
+filename: /project/library/example/std/pgate/1.2/DB/0.630v_tt_0c_cw/pgate_clamps_0.630v_tt_0c_cw.db
+filetype: DB
+groups:
+  cornergroup: pgate_clamps_0.630v_tt_0c_cw
+---
+attributes:
+  library: pgate_clamps_1.000v_ss_-30c_cw
+cells:
+  pgate_vchmb1t02p00: &id001 {}
+  pgate_vchmb1t04p00: *id001
+  pgate_vckmb1t02p00: *id001
+  pgate_vckmb1t04p00: *id001
+  pgate_vclmb1t02p00: *id001
+  pgate_vclmb1t04p00: *id001
+entity: file
+filename: /project/library/example/std/pgate/1.2/LIB/1.000v_ss_-30c_cw/pgate_clamps_1.000v_ss_-30c_cw.lib
+filetype: LIB
+groups:
+  cornergroup: pgate_clamps_1.000v_ss_-30c_cw
+---
+attributes:
+  library: pgate_clamps_0.710v_tt_0c_cw
+cells: {}
+entity: file
+filename: /project/library/example/std/pgate/1.2/LIB/0.710v_tt_0c_cw/pgate_clamps_0.710v_tt_0c_cw.lib
+filetype: LIB
+groups: {}
+---
+attributes:
+  library: pgate_alwayson_0.710v_tt_0c_cw
+cells:
+  pgate_ngpl_aobufp5t20p00: &id001 {}
+  pgate_ngpl_aobufp5t24p00: *id001
+  pgate_ngpl_aoinvp5f20p00: *id001
+  pgate_ngpl_aoinvp5f24p00: *id001
+entity: file
+filename: /project/library/example/std/pgate/1.2/LIB/0.710v_0.710v_tt_0c_cw/pgate_alwayson_0.710v_tt_0c_cw.lib
+filetype: LIB
+groups:
+  cornergroup: pgate_alwayson_0.710v_tt_0c_cw
+---
+attributes:
+  library: pgate_alwayson_1.155v_ff_125c_cw
+cells:
+  pgate_ngpl_aobufp5t20p00: &id001 {}
+  pgate_ngpl_aobufp5t24p00: *id001
+  pgate_ngpl_aoinvp5f20p00: *id001
+  pgate_ngpl_aoinvp5f24p00: *id001
+entity: file
+filename: /project/library/example/std/pgate/1.2/DB/1.155v_1.155v_ff_125c_cw/pgate_alwayson_1.155v_ff_125c_cw.db
+filetype: DB
+groups: {}
+---
+attributes:
+  library: pgate_alwayson_0.710v_tt_0c_cw
+cells:
+  pgate_ngpl_aobufp5t20p00: &id001 {}
+  pgate_ngpl_aobufp5t24p00: *id001
+  pgate_ngpl_aoinvp5f20p00: *id001
+  pgate_ngpl_aoinvp5f24p00: *id001
+entity: file
+filename: /project/library/example/std/pgate/1.2/DB/0.710v_0.710v_tt_0c_cw/pgate_alwayson_0.710v_tt_0c_cw.db
+filetype: DB
+groups:
+  cornergroup: pgate_alwayson_0.710v_tt_0c_cw
+---
+attributes:
+  library: pgate_clamps_1.155v_ff_-30c_cw
+cells:
+  pgate_vchmb1t02p00: &id001 {}
+  pgate_vchmb1t04p00: *id001
+  pgate_vckmb1t02p00: *id001
+  pgate_vckmb1t04p00: *id001
+  pgate_vclmb1t02p00: *id001
+  pgate_vclmb1t04p00: *id001
+entity: file
+filename: /project/library/example/std/pgate/1.2/LIB/1.155v_ff_-30c_cw/pgate_clamps_1.155v_ff_-30c_cw.lib
+filetype: LIB
+groups:
+  cornergroup: pgate_clamps_1.155v_ff_-30c_cw
 ---
 attributes:
   library: pgate_alwayson_0.900v_tt_125c_rcw
@@ -67,7 +229,7 @@ groups:
   cornergroup: pgate_alwayson_0.900v_tt_125c_rcw
 ---
 attributes:
-  library: pgate_clamps_0.810v_tt_-30c_cw
+  library: pgate_clamps_1.155v_ff_-30c_cb
 cells:
   pgate_vchmb1t02p00: &id001 {}
   pgate_vchmb1t04p00: *id001
@@ -76,10 +238,80 @@ cells:
   pgate_vclmb1t02p00: *id001
   pgate_vclmb1t04p00: *id001
 entity: file
-filename: /project/library/example/std/pgate/1.2/LIB/0.810v_tt_-30c_cw/pgate_clamps_0.810v_tt_-30c_cw.lib
+filename: /project/library/example/std/pgate/1.2/DB/1.155v_ff_-30c_cb/pgate_clamps_1.155v_ff_-30c_cb.db
+filetype: DB
+groups:
+  cornergroup: pgate_clamps_1.155v_ff_-30c_cb
+---
+attributes:
+  library: pgate_alwayson_0.900v_tt_-30c_cw
+cells:
+  pgate_ngpl_aobufp5t20p00: &id001 {}
+  pgate_ngpl_aobufp5t24p00: *id001
+  pgate_ngpl_aoinvp5f20p00: *id001
+  pgate_ngpl_aoinvp5f24p00: *id001
+entity: file
+filename: /project/library/example/std/pgate/1.2/DB/0.900v_0.900v_tt_-30c_cw/pgate_alwayson_0.900v_tt_-30c_cw.db
+filetype: DB
+groups:
+  cornergroup: pgate_alwayson_0.900v_tt_-30c_cw
+---
+attributes:
+  library: pgate_clamps_1.155v_ff_125c_cw
+cells:
+  pgate_vchmb1t02p00: &id001 {}
+  pgate_vchmb1t04p00: *id001
+  pgate_vckmb1t02p00: *id001
+  pgate_vckmb1t04p00: *id001
+  pgate_vclmb1t02p00: *id001
+  pgate_vclmb1t04p00: *id001
+entity: file
+filename: /project/library/example/std/pgate/1.2/LIB/1.155v_ff_125c_cw/pgate_clamps_1.155v_ff_125c_cw.lib
+filetype: LIB
+groups: {}
+---
+attributes:
+  library: pgate_clamps_1.155v_ff_-30c_cb
+cells:
+  pgate_vchmb1t02p00: &id001 {}
+  pgate_vchmb1t04p00: *id001
+  pgate_vckmb1t02p00: *id001
+  pgate_vckmb1t04p00: *id001
+  pgate_vclmb1t02p00: *id001
+  pgate_vclmb1t04p00: *id001
+entity: file
+filename: /project/library/example/std/pgate/1.2/LIB/1.155v_ff_-30c_cb/pgate_clamps_1.155v_ff_-30c_cb.lib
 filetype: LIB
 groups:
-  cornergroup: pgate_clamps_0.810v_tt_-30c_cw
+  cornergroup: pgate_clamps_1.155v_ff_-30c_cb
+---
+attributes:
+  library: pgate_alwayson_0.900v_tt_-30c_cw
+cells:
+  pgate_ngpl_aobufp5t20p00: &id001 {}
+  pgate_ngpl_aobufp5t24p00: *id001
+  pgate_ngpl_aoinvp5f20p00: *id001
+  pgate_ngpl_aoinvp5f24p00: *id001
+entity: file
+filename: /project/library/example/std/pgate/1.2/LIB/0.900v_0.900v_tt_-30c_cw/pgate_alwayson_0.900v_tt_-30c_cw.lib
+filetype: LIB
+groups:
+  cornergroup: pgate_alwayson_0.900v_tt_-30c_cw
+---
+attributes:
+  library: pgate_clamps_1.155v_ff_-30c_cw
+cells:
+  pgate_vchmb1t02p00: &id001 {}
+  pgate_vchmb1t04p00: *id001
+  pgate_vckmb1t02p00: *id001
+  pgate_vckmb1t04p00: *id001
+  pgate_vclmb1t02p00: *id001
+  pgate_vclmb1t04p00: *id001
+entity: file
+filename: /project/library/example/std/pgate/1.2/DB/1.155v_ff_-30c_cw/pgate_clamps_1.155v_ff_-30c_cw.db
+filetype: DB
+groups:
+  cornergroup: pgate_clamps_1.155v_ff_-30c_cw
 ---
 attributes:
   library: pgate_alwayson_0.900v_tt_125c_rcw
@@ -108,83 +340,32 @@ groups:
   cornergroup: pgate_alwayson_0.630v_tt_0c_cw
 ---
 attributes:
-  library: pgate_alwayson_1.155v_ff_125c_cb
+  library: pgate_alwayson_1.000v_ss_-30c_cw
 cells:
   pgate_ngpl_aobufp5t20p00: &id001 {}
   pgate_ngpl_aobufp5t24p00: *id001
   pgate_ngpl_aoinvp5f20p00: *id001
   pgate_ngpl_aoinvp5f24p00: *id001
 entity: file
-filename: /project/library/example/std/pgate/1.2/LIB/1.155v_1.155v_ff_125c_cb/pgate_alwayson_1.155v_ff_125c_cb.lib
+filename: /project/library/example/std/pgate/1.2/LIB/1.000v_1.000v_ss_-30c_cw/pgate_alwayson_1.000v_ss_-30c_cw.lib
 filetype: LIB
 groups:
-  cornergroup: pgate_alwayson_1.155v_ff_125c_cb
+  cornergroup: pgate_alwayson_1.000v_ss_-30c_cw
 ---
 attributes:
-  library: pgate_alwayson_1.155v_ff_125c_cb
+  library: pgate_clamps_0.900v_tt_-30c_cw
 cells:
-  pgate_ngpl_aobufp5t20p00: &id001 {}
-  pgate_ngpl_aobufp5t24p00: *id001
-  pgate_ngpl_aoinvp5f20p00: *id001
-  pgate_ngpl_aoinvp5f24p00: *id001
+  pgate_vchmb1t02p00: &id001 {}
+  pgate_vchmb1t04p00: *id001
+  pgate_vckmb1t02p00: *id001
+  pgate_vckmb1t04p00: *id001
+  pgate_vclmb1t02p00: *id001
+  pgate_vclmb1t04p00: *id001
 entity: file
-filename: /project/library/example/std/pgate/1.2/DB/1.155v_1.155v_ff_125c_cb/pgate_alwayson_1.155v_ff_125c_cb.db
+filename: /project/library/example/std/pgate/1.2/DB/0.900v_tt_-30c_cw/pgate_clamps_0.900v_tt_-30c_cw.db
 filetype: DB
 groups:
-  cornergroup: pgate_alwayson_1.155v_ff_125c_cb
----
-attributes:
-  library: pgate_clamps_1.155v_ff_-30c_cb
-cells:
-  pgate_vchmb1t02p00: &id001 {}
-  pgate_vchmb1t04p00: *id001
-  pgate_vckmb1t02p00: *id001
-  pgate_vckmb1t04p00: *id001
-  pgate_vclmb1t02p00: *id001
-  pgate_vclmb1t04p00: *id001
-entity: file
-filename: /project/library/example/std/pgate/1.2/LIB/1.155v_ff_-30c_cb/pgate_clamps_1.155v_ff_-30c_cb.lib
-filetype: LIB
-groups:
-  cornergroup: pgate_clamps_1.155v_ff_-30c_cb
----
-attributes:
-  library: pgate_clamps_1.000v_ss_-30c_cw
-cells:
-  pgate_vchmb1t02p00: &id001 {}
-  pgate_vchmb1t04p00: *id001
-  pgate_vckmb1t02p00: *id001
-  pgate_vckmb1t04p00: *id001
-  pgate_vclmb1t02p00: *id001
-  pgate_vclmb1t04p00: *id001
-entity: file
-filename: /project/library/example/std/pgate/1.2/LIB/1.000v_ss_-30c_cw/pgate_clamps_1.000v_ss_-30c_cw.lib
-filetype: LIB
-groups:
-  cornergroup: pgate_clamps_1.000v_ss_-30c_cw
----
-attributes:
-  library: pgate_clamps_1.155v_ff_-30c_cw
-cells:
-  pgate_vchmb1t02p00: &id001 {}
-  pgate_vchmb1t04p00: *id001
-  pgate_vckmb1t02p00: *id001
-  pgate_vckmb1t04p00: *id001
-  pgate_vclmb1t02p00: *id001
-  pgate_vclmb1t04p00: *id001
-entity: file
-filename: /project/library/example/std/pgate/1.2/DB/1.155v_ff_-30c_cw/pgate_clamps_1.155v_ff_-30c_cw.db
-filetype: DB
-groups:
-  cornergroup: pgate_clamps_1.155v_ff_-30c_cw
----
-attributes:
-  library: pgate_clamps_0.710v_tt_0c_cw
-cells: {}
-entity: file
-filename: /project/library/example/std/pgate/1.2/LIB/0.710v_tt_0c_cw/pgate_clamps_0.710v_tt_0c_cw.lib
-filetype: LIB
-groups: {}
+  cornergroup: pgate_clamps_0.900v_tt_-30c_cw
 ---
 attributes:
   library: pgate_alwayson_0.810v_tt_-30c_cw
@@ -194,38 +375,10 @@ cells:
   pgate_ngpl_aoinvp5f20p00: *id001
   pgate_ngpl_aoinvp5f24p00: *id001
 entity: file
-filename: /project/library/example/std/pgate/1.2/LIB/0.810v_0.810v_tt_-30c_cw/pgate_alwayson_0.810v_tt_-30c_cw.lib
-filetype: LIB
+filename: /project/library/example/std/pgate/1.2/DB/0.810v_0.810v_tt_-30c_cw/pgate_alwayson_0.810v_tt_-30c_cw.db
+filetype: DB
 groups:
   cornergroup: pgate_alwayson_0.810v_tt_-30c_cw
----
-attributes:
-  library: pgate_clamps_0.710v_tt_0c_cw
-cells:
-  pgate_vchmb1t02p00: &id001 {}
-  pgate_vchmb1t04p00: *id001
-  pgate_vckmb1t02p00: *id001
-  pgate_vckmb1t04p00: *id001
-  pgate_vclmb1t02p00: *id001
-  pgate_vclmb1t04p00: *id001
-entity: file
-filename: /project/library/example/std/pgate/1.2/DB/0.710v_tt_0c_cw/pgate_clamps_0.710v_tt_0c_cw.db
-filetype: DB
-groups:
-  cornergroup: pgate_clamps_0.710v_tt_0c_cw
----
-attributes:
-  library: pgate_alwayson_0.900v_tt_-30c_cw
-cells:
-  pgate_ngpl_aobufp5t20p00: &id001 {}
-  pgate_ngpl_aobufp5t24p00: *id001
-  pgate_ngpl_aoinvp5f20p00: *id001
-  pgate_ngpl_aoinvp5f24p00: *id001
-entity: file
-filename: /project/library/example/std/pgate/1.2/DB/0.900v_0.900v_tt_-30c_cw/pgate_alwayson_0.900v_tt_-30c_cw.db
-filetype: DB
-groups:
-  cornergroup: pgate_alwayson_0.900v_tt_-30c_cw
 ---
 attributes:
   library: pgate_alwayson_1.155v_ff_-30c_cb
@@ -241,7 +394,59 @@ groups:
   cornergroup: pgate_alwayson_1.155v_ff_-30c_cb
 ---
 attributes:
-  library: pgate_clamps_0.810v_tt_-30c_cw
+  library: pgate_alwayson_1.155v_ff_125c_cw
+cells:
+  pgate_ngpl_aobufp5t20p00: &id001 {}
+  pgate_ngpl_aobufp5t24p00: *id001
+  pgate_ngpl_aoinvp5f20p00: *id001
+  pgate_ngpl_aoinvp5f24p00: *id001
+entity: file
+filename: /project/library/example/std/pgate/1.2/LIB/1.155v_1.155v_ff_125c_cw/pgate_alwayson_1.155v_ff_125c_cw.lib
+filetype: LIB
+groups:
+  cornergroup: pgate_alwayson_1.155v_ff_125c_cw
+---
+attributes:
+  library: pgate_alwayson_0.630v_tt_0c_cw
+cells:
+  pgate_ngpl_aobufp5t20p00: &id001 {}
+  pgate_ngpl_aobufp5t24p00: *id001
+  pgate_ngpl_aoinvp5f20p00: *id001
+  pgate_ngpl_aoinvp5f24p00: *id001
+entity: file
+filename: /project/library/example/std/pgate/1.2/DB/0.630v_0.630v_tt_0c_cw/pgate_alwayson_0.630v_tt_0c_cw.db
+filetype: DB
+groups:
+  cornergroup: pgate_alwayson_0.630v_tt_0c_cw
+---
+attributes:
+  library: pgate_alwayson_1.155v_ff_125c_cb
+cells:
+  pgate_ngpl_aobufp5t20p00: &id001 {}
+  pgate_ngpl_aobufp5t24p00: *id001
+  pgate_ngpl_aoinvp5f20p00: *id001
+  pgate_ngpl_aoinvp5f24p00: *id001
+entity: file
+filename: /project/library/example/std/pgate/1.2/LIB/1.155v_1.155v_ff_125c_cb/pgate_alwayson_1.155v_ff_125c_cb.lib
+filetype: LIB
+groups:
+  cornergroup: pgate_alwayson_1.155v_ff_125c_cb
+---
+attributes:
+  library: pgate_alwayson_1.000v_ss_-30c_cw
+cells:
+  pgate_ngpl_aobufp5t20p00: &id001 {}
+  pgate_ngpl_aobufp5t24p00: *id001
+  pgate_ngpl_aoinvp5f20p00: *id001
+  pgate_ngpl_aoinvp5f24p00: *id001
+entity: file
+filename: /project/library/example/std/pgate/1.2/DB/1.000v_1.000v_ss_-30c_cw/pgate_alwayson_1.000v_ss_-30c_cw.db
+filetype: DB
+groups:
+  cornergroup: pgate_alwayson_1.000v_ss_-30c_cw
+---
+attributes:
+  library: pgate_clamps_0.900v_tt_125c_rcw
 cells:
   pgate_vchmb1t02p00: &id001 {}
   pgate_vchmb1t04p00: *id001
@@ -250,10 +455,10 @@ cells:
   pgate_vclmb1t02p00: *id001
   pgate_vclmb1t04p00: *id001
 entity: file
-filename: /project/library/example/std/pgate/1.2/DB/0.810v_tt_-30c_cw/pgate_clamps_0.810v_tt_-30c_cw.db
-filetype: DB
+filename: /project/library/example/std/pgate/1.2/LIB/0.900v_tt_125c_rcw/pgate_clamps_0.900v_tt_125c_rcw.lib
+filetype: LIB
 groups:
-  cornergroup: pgate_clamps_0.810v_tt_-30c_cw
+  cornergroup: pgate_clamps_0.900v_tt_125c_rcw
 ---
 attributes:
   library: pgate_clamps_1.000v_ss_-30c_cw
@@ -269,34 +474,6 @@ filename: /project/library/example/std/pgate/1.2/DB/1.000v_ss_-30c_cw/pgate_clam
 filetype: DB
 groups:
   cornergroup: pgate_clamps_1.000v_ss_-30c_cw
----
-attributes:
-  library: pgate_alwayson_1.155v_ff_-30c_cb
-cells:
-  pgate_ngpl_aobufp5t20p00: &id001 {}
-  pgate_ngpl_aobufp5t24p00: *id001
-  pgate_ngpl_aoinvp5f20p00: *id001
-  pgate_ngpl_aoinvp5f24p00: *id001
-entity: file
-filename: /project/library/example/std/pgate/1.2/DB/1.155v_1.155v_ff_-30c_cb/pgate_alwayson_1.155v_ff_-30c_cb.db
-filetype: DB
-groups:
-  cornergroup: pgate_alwayson_1.155v_ff_-30c_cb
----
-attributes:
-  library: pgate_clamps_1.155v_ff_125c_cw
-cells:
-  pgate_vchmb1t02p00: &id001 {}
-  pgate_vchmb1t04p00: *id001
-  pgate_vckmb1t02p00: *id001
-  pgate_vckmb1t04p00: *id001
-  pgate_vclmb1t02p00: *id001
-  pgate_vclmb1t04p00: *id001
-entity: file
-filename: /project/library/example/std/pgate/1.2/DB/1.155v_ff_125c_cw/pgate_clamps_1.155v_ff_125c_cw.db
-filetype: DB
-groups:
-  cornergroup: pgate_clamps_1.155v_ff_125c_cw
 ---
 attributes: {}
 cells:
@@ -317,45 +494,7 @@ groups:
   ipgroup: pgate
 ---
 attributes:
-  library: pgate_alwayson_0.900v_tt_-30c_cw
-cells:
-  pgate_ngpl_aobufp5t20p00: &id001 {}
-  pgate_ngpl_aobufp5t24p00: *id001
-  pgate_ngpl_aoinvp5f20p00: *id001
-  pgate_ngpl_aoinvp5f24p00: *id001
-entity: file
-filename: /project/library/example/std/pgate/1.2/LIB/0.900v_0.900v_tt_-30c_cw/pgate_alwayson_0.900v_tt_-30c_cw.lib
-filetype: LIB
-groups:
-  cornergroup: pgate_alwayson_0.900v_tt_-30c_cw
----
-attributes:
-  library: pgate_alwayson_1.155v_ff_125c_cw
-cells:
-  pgate_ngpl_aobufp5t20p00: &id001 {}
-  pgate_ngpl_aobufp5t24p00: *id001
-  pgate_ngpl_aoinvp5f20p00: *id001
-  pgate_ngpl_aoinvp5f24p00: *id001
-entity: file
-filename: /project/library/example/std/pgate/1.2/DB/1.155v_1.155v_ff_125c_cw/pgate_alwayson_1.155v_ff_125c_cw.db
-filetype: DB
-groups: {}
----
-attributes:
-  library: pgate_alwayson_1.000v_ss_-30c_cw
-cells:
-  pgate_ngpl_aobufp5t20p00: &id001 {}
-  pgate_ngpl_aobufp5t24p00: *id001
-  pgate_ngpl_aoinvp5f20p00: *id001
-  pgate_ngpl_aoinvp5f24p00: *id001
-entity: file
-filename: /project/library/example/std/pgate/1.2/DB/1.000v_1.000v_ss_-30c_cw/pgate_alwayson_1.000v_ss_-30c_cw.db
-filetype: DB
-groups:
-  cornergroup: pgate_alwayson_1.000v_ss_-30c_cw
----
-attributes:
-  library: pgate_clamps_0.630v_tt_0c_cw
+  library: pgate_clamps_0.710v_tt_0c_cw
 cells:
   pgate_vchmb1t02p00: &id001 {}
   pgate_vchmb1t04p00: *id001
@@ -364,10 +503,25 @@ cells:
   pgate_vclmb1t02p00: *id001
   pgate_vclmb1t04p00: *id001
 entity: file
-filename: /project/library/example/std/pgate/1.2/DB/0.630v_tt_0c_cw/pgate_clamps_0.630v_tt_0c_cw.db
+filename: /project/library/example/std/pgate/1.2/DB/0.710v_tt_0c_cw/pgate_clamps_0.710v_tt_0c_cw.db
 filetype: DB
 groups:
-  cornergroup: pgate_clamps_0.630v_tt_0c_cw
+  cornergroup: pgate_clamps_0.710v_tt_0c_cw
+---
+attributes:
+  library: pgate_clamps_0.810v_tt_-30c_cw
+cells:
+  pgate_vchmb1t02p00: &id001 {}
+  pgate_vchmb1t04p00: *id001
+  pgate_vckmb1t02p00: *id001
+  pgate_vckmb1t04p00: *id001
+  pgate_vclmb1t02p00: *id001
+  pgate_vclmb1t04p00: *id001
+entity: file
+filename: /project/library/example/std/pgate/1.2/LIB/0.810v_tt_-30c_cw/pgate_clamps_0.810v_tt_-30c_cw.lib
+filetype: LIB
+groups:
+  cornergroup: pgate_clamps_0.810v_tt_-30c_cw
 ---
 attributes:
   library: pgate_clamps_1.155v_ff_125c_cw
@@ -379,138 +533,10 @@ cells:
   pgate_vclmb1t02p00: *id001
   pgate_vclmb1t04p00: *id001
 entity: file
-filename: /project/library/example/std/pgate/1.2/LIB/1.155v_ff_125c_cw/pgate_clamps_1.155v_ff_125c_cw.lib
-filetype: LIB
-groups: {}
----
-attributes:
-  library: pgate_alwayson_0.710v_tt_0c_cw
-cells:
-  pgate_ngpl_aobufp5t20p00: &id001 {}
-  pgate_ngpl_aobufp5t24p00: *id001
-  pgate_ngpl_aoinvp5f20p00: *id001
-  pgate_ngpl_aoinvp5f24p00: *id001
-entity: file
-filename: /project/library/example/std/pgate/1.2/DB/0.710v_0.710v_tt_0c_cw/pgate_alwayson_0.710v_tt_0c_cw.db
+filename: /project/library/example/std/pgate/1.2/DB/1.155v_ff_125c_cw/pgate_clamps_1.155v_ff_125c_cw.db
 filetype: DB
 groups:
-  cornergroup: pgate_alwayson_0.710v_tt_0c_cw
----
-attributes:
-  library: pgate_alwayson_0.710v_tt_0c_cw
-cells:
-  pgate_ngpl_aobufp5t20p00: &id001 {}
-  pgate_ngpl_aobufp5t24p00: *id001
-  pgate_ngpl_aoinvp5f20p00: *id001
-  pgate_ngpl_aoinvp5f24p00: *id001
-entity: file
-filename: /project/library/example/std/pgate/1.2/LIB/0.710v_0.710v_tt_0c_cw/pgate_alwayson_0.710v_tt_0c_cw.lib
-filetype: LIB
-groups:
-  cornergroup: pgate_alwayson_0.710v_tt_0c_cw
----
-attributes:
-  library: pgate_clamps_1.155v_ff_125c_cb
-cells:
-  pgate_vchmb1t02p00: &id001 {}
-  pgate_vchmb1t04p00: *id001
-  pgate_vckmb1t02p00: *id001
-  pgate_vckmb1t04p00: *id001
-  pgate_vclmb1t02p00: *id001
-  pgate_vclmb1t04p00: *id001
-entity: file
-filename: /project/library/example/std/pgate/1.2/DB/1.155v_ff_125c_cb/pgate_clamps_1.155v_ff_125c_cb.db
-filetype: DB
-groups:
-  cornergroup: pgate_clamps_1.155v_ff_125c_cb
----
-attributes:
-  library: pgate_clamps_1.155v_ff_-30c_cb
-cells:
-  pgate_vchmb1t02p00: &id001 {}
-  pgate_vchmb1t04p00: *id001
-  pgate_vckmb1t02p00: *id001
-  pgate_vckmb1t04p00: *id001
-  pgate_vclmb1t02p00: *id001
-  pgate_vclmb1t04p00: *id001
-entity: file
-filename: /project/library/example/std/pgate/1.2/DB/1.155v_ff_-30c_cb/pgate_clamps_1.155v_ff_-30c_cb.db
-filetype: DB
-groups:
-  cornergroup: pgate_clamps_1.155v_ff_-30c_cb
----
-attributes:
-  library: pgate_clamps_0.900v_tt_-30c_cw
-cells:
-  pgate_vchmb1t02p00: &id001 {}
-  pgate_vchmb1t04p00: *id001
-  pgate_vckmb1t02p00: *id001
-  pgate_vckmb1t04p00: *id001
-  pgate_vclmb1t02p00: *id001
-  pgate_vclmb1t04p00: *id001
-entity: file
-filename: /project/library/example/std/pgate/1.2/LIB/0.900v_tt_-30c_cw/pgate_clamps_0.900v_tt_-30c_cw.lib
-filetype: LIB
-groups:
-  cornergroup: pgate_clamps_0.900v_tt_-30c_cw
----
-attributes:
-  library: pgate_clamps_0.900v_tt_125c_rcw
-cells:
-  pgate_vchmb1t02p00: &id001 {}
-  pgate_vchmb1t04p00: *id001
-  pgate_vckmb1t02p00: *id001
-  pgate_vckmb1t04p00: *id001
-  pgate_vclmb1t02p00: *id001
-  pgate_vclmb1t04p00: *id001
-entity: file
-filename: /project/library/example/std/pgate/1.2/LIB/0.900v_tt_125c_rcw/pgate_clamps_0.900v_tt_125c_rcw.lib
-filetype: LIB
-groups:
-  cornergroup: pgate_clamps_0.900v_tt_125c_rcw
----
-attributes:
-  library: pgate_alwayson_1.155v_ff_125c_cw
-cells:
-  pgate_ngpl_aobufp5t20p00: &id001 {}
-  pgate_ngpl_aobufp5t24p00: *id001
-  pgate_ngpl_aoinvp5f20p00: *id001
-  pgate_ngpl_aoinvp5f24p00: *id001
-entity: file
-filename: /project/library/example/std/pgate/1.2/LIB/1.155v_1.155v_ff_125c_cw/pgate_alwayson_1.155v_ff_125c_cw.lib
-filetype: LIB
-groups:
-  cornergroup: pgate_alwayson_1.155v_ff_125c_cw
----
-attributes:
-  library: pgate_clamps_1.155v_ff_-30c_cw
-cells:
-  pgate_vchmb1t02p00: &id001 {}
-  pgate_vchmb1t04p00: *id001
-  pgate_vckmb1t02p00: *id001
-  pgate_vckmb1t04p00: *id001
-  pgate_vclmb1t02p00: *id001
-  pgate_vclmb1t04p00: *id001
-entity: file
-filename: /project/library/example/std/pgate/1.2/LIB/1.155v_ff_-30c_cw/pgate_clamps_1.155v_ff_-30c_cw.lib
-filetype: LIB
-groups:
-  cornergroup: pgate_clamps_1.155v_ff_-30c_cw
----
-attributes:
-  library: pgate_clamps_0.900v_tt_-30c_cw
-cells:
-  pgate_vchmb1t02p00: &id001 {}
-  pgate_vchmb1t04p00: *id001
-  pgate_vckmb1t02p00: *id001
-  pgate_vckmb1t04p00: *id001
-  pgate_vclmb1t02p00: *id001
-  pgate_vclmb1t04p00: *id001
-entity: file
-filename: /project/library/example/std/pgate/1.2/DB/0.900v_tt_-30c_cw/pgate_clamps_0.900v_tt_-30c_cw.db
-filetype: DB
-groups:
-  cornergroup: pgate_clamps_0.900v_tt_-30c_cw
+  cornergroup: pgate_clamps_1.155v_ff_125c_cw
 ---
 attributes:
   library: pgate_clamps_1.155v_ff_125c_cb
@@ -528,33 +554,7 @@ groups:
   cornergroup: pgate_clamps_1.155v_ff_125c_cb
 ---
 attributes:
-  library: pgate_alwayson_1.155v_ff_-30c_cw
-cells:
-  pgate_ngpl_aobufp5t20p00: &id001 {}
-  pgate_ngpl_aobufp5t24p00: *id001
-  pgate_ngpl_aoinvp5f20p00: *id001
-  pgate_ngpl_aoinvp5f24p00: *id001
-entity: file
-filename: /project/library/example/std/pgate/1.2/DB/1.155v_1.155v_ff_-30c_cw/pgate_alwayson_1.155v_ff_-30c_cw.db
-filetype: DB
-groups:
-  cornergroup: pgate_alwayson_1.155v_ff_-30c_cw
----
-attributes:
-  library: pgate_alwayson_0.810v_tt_-30c_cw
-cells:
-  pgate_ngpl_aobufp5t20p00: &id001 {}
-  pgate_ngpl_aobufp5t24p00: *id001
-  pgate_ngpl_aoinvp5f20p00: *id001
-  pgate_ngpl_aoinvp5f24p00: *id001
-entity: file
-filename: /project/library/example/std/pgate/1.2/DB/0.810v_0.810v_tt_-30c_cw/pgate_alwayson_0.810v_tt_-30c_cw.db
-filetype: DB
-groups:
-  cornergroup: pgate_alwayson_0.810v_tt_-30c_cw
----
-attributes:
-  library: pgate_clamps_0.630v_tt_0c_cw
+  library: pgate_clamps_0.900v_tt_125c_rcw
 cells:
   pgate_vchmb1t02p00: &id001 {}
   pgate_vchmb1t04p00: *id001
@@ -563,7 +563,7 @@ cells:
   pgate_vclmb1t02p00: *id001
   pgate_vclmb1t04p00: *id001
 entity: file
-filename: /project/library/example/std/pgate/1.2/LIB/0.630v_tt_0c_cw/pgate_clamps_0.630v_tt_0c_cw.lib
-filetype: LIB
+filename: /project/library/example/std/pgate/1.2/DB/0.900v_tt_125c_rcw/pgate_clamps_0.900v_tt_125c_rcw.db
+filetype: DB
 groups:
-  cornergroup: pgate_clamps_0.630v_tt_0c_cw
+  cornergroup: pgate_clamps_0.900v_tt_125c_rcw
