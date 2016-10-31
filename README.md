@@ -1,10 +1,17 @@
-﻿
-# Software Design Patterns Project
+
+# Representing a Cell Library &mdash; A Software Design Pattern Project
 
 ```
 John MacDonald
 3/18/15
 ```
+
+Software design patterns, as described in the iconic text _Design Patterns:
+Elements of Reusable Object-Oriented Software_ by Gamma, Helm, Johnson, and
+Vlissides (often called the Gang of Four or simply &ldquo;GoF,&rdquo; are not recipies but
+guidelines for creating reusable software that often require adaptation to the
+problem at hand. To that end, examples that do more than regurgitate those in
+the book.
 
 In this project, software design patterns are applied in a system for managing
 cell libraries used in the design of integrated circuits. We first address the
@@ -124,7 +131,9 @@ To avoid problems importing and exporting, a separate flat file-entity class str
 used to avoid problems with references to objects that may not be in memory.
 
 ### Iterator
-The `__iter__()` and `__next__()` functions in the `Library` class (library/library.py) implement the Python iterator protocol. This is so simple in Python it almost comes for free.
+The `__iter__()` and `__next__()` functions in the `Library` class
+(library/library.py) implement the Python iterator protocol. This is so simple
+in Python it almost comes for free.
 
 ### Builder
 The importer package applies the Builder pattern. The `ImportDirector` class
@@ -134,9 +143,13 @@ GoF examples in that the same complex object (a Library) is constructed from dif
 sources.
 
 ### Visitor
-The Visitor pattern is applied in the exporter.  This is much like the importer, in that the `ExportDirector` class provides the context and plays a role similar to the Director in the builder pattern. But here we already have objects; the intent is to export them. The `Export` abstract class (exporter/exporter.py) acts as Node Visitor with concrete classes 
-`JsonExporter` and `YmlExporter` calling `accept()` on library components and receiving call 
-backs to their visit routines to construct the appropriate export data structures.
+The Visitor pattern is applied in the exporter.  This is much like the importer,
+in that the `ExportDirector` class provides the context and plays a role similar
+to the Director in the builder pattern. But here we already have objects; the
+intent is to export them. The `Export` abstract class (exporter/exporter.py)
+acts as Node Visitor with concrete classes `JsonExporter` and `YmlExporter`
+calling `accept()` on library components and receiving call backs to their visit
+routines to construct the appropriate export data structures.
 
 ### Template Method
 The grouper package applies the Template Method. The `GrouperTemplate` class 
@@ -161,4 +174,9 @@ Writing Fixtures/pgate.out.json
 Rebuilding groups . . . 
 Writing Fixtures/pgate.rebuilt.json
 ```
+
+## Reference
+
+Gamma, Erich, Richard Helm, Ralph Johnson, and John Vlissides. _Design Patterns:
+Elements of Reusabel Object-Oriented Software_, New York: Addison-Wesley, 1994.
 
