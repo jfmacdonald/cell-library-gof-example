@@ -1,0 +1,954 @@
+{
+  "reference": {
+    "path": {
+      "cf0516572027d0ecbbd60bbbaa8ed1b7": "/project/library/example/std/pgate/1.2/DB/1.000v_1.000v_ss_-30c_cw",
+      "ca5e928b6041f15086a9e34692fc3ebe": "/project/library/example/std/pgate/1.2/LIB/1.155v_ff_125c_cb",
+      "03c7b2d1afbdebcd4a4c20d0135083b6": "/project/library/example/std/pgate/1.2/LIB/1.155v_1.155v_ff_-30c_cb",
+      "dded2202fda6c4b8d7ebee2c1833b9f2": "/project/library/example/std/pgate/1.2/DB/0.900v_0.900v_tt_-30c_cw",
+      "b7418e37658bd346210079549744ca64": "/project/library/example/std/pgate/1.2/DB/0.810v_0.810v_tt_-30c_cw",
+      "4abb21c967bd9b7f0487067f223cf40c": "/project/library/example/std/pgate/1.2/LIB/0.630v_0.630v_tt_0c_cw",
+      "b9e7911de1ac46f2ae4927fc69a69fa6": "/project/library/example/std/pgate/1.2/DB/0.710v_0.710v_tt_0c_cw",
+      "dd111be7b824ab1d3bab75ca4b087855": "/project/library/example/std/pgate/1.2/DB/0.900v_tt_125c_rcw",
+      "1145b28432f17f55fa0903b0bf91f750": "/project/library/example/std/pgate/1.2/DB/1.155v_1.155v_ff_-30c_cw",
+      "7ba4fc5ae444286750a52bf87008ed0c": "/project/library/example/std/pgate/1.2/DB/1.155v_ff_125c_cb",
+      "01c6f138eb7bb35e141789a86840c342": "/project/library/example/std/pgate/1.2/LIB/1.155v_ff_-30c_cb",
+      "0549b01ad04441e2e617cfc093078f76": "/project/library/example/std/pgate/1.2/DB/1.155v_ff_-30c_cw",
+      "08d284c2374504a292a476ce08b32651": "/project/library/example/std/pgate/1.2/DB/0.900v_tt_-30c_cw",
+      "f30b8c47975e653342e926256a374443": "/project/library/example/std/pgate/1.2/DB/1.000v_ss_-30c_cw",
+      "5e3de81bb3a8a5136e82b34b39aa9710": "/project/library/example/std/pgate/1.2/LIB/1.155v_1.155v_ff_125c_cb",
+      "ce13e9cd5c52e4d8d7dc0c043b002321": "/project/library/example/std/pgate/1.2/DB/1.155v_1.155v_ff_125c_cw",
+      "394415ede48c7f5524f810051b7d88eb": "/project/library/example/std/pgate/1.2/LIB/0.900v_0.900v_tt_125c_rcw",
+      "d4ef14d2e5dc41bb6eb8cfaaa77bdeb8": "/project/library/example/std/pgate/1.2/DB/0.630v_tt_0c_cw",
+      "3d65f5963f7c67cef7f1f68d3ea33336": "/project/library/example/std/pgate/1.2/LIB/0.900v_tt_-30c_cw",
+      "ccb069e033db7f9d4cf38759a5f8b10f": "/project/library/example/std/pgate/1.2/LIB/0.810v_0.810v_tt_-30c_cw",
+      "645cd6342a097763c72abcd1feae7a1d": "/project/library/example/std/pgate/1.2/LIB/0.810v_tt_-30c_cw",
+      "90c1b1c4df77b0120fcc5b8ebe91a029": "/project/library/example/std/pgate/1.2/LIB/0.710v_tt_0c_cw",
+      "d11571db29b5ceb6113e687c1e27466d": "/project/library/example/std/pgate/1.2/LIB/0.710v_0.710v_tt_0c_cw",
+      "50c1d6e5264a7a9c6a37dc6692bdcf05": "/project/library/example/std/pgate/1.2/DB/1.155v_ff_-30c_cb",
+      "ff3eb4bdf65adce531822c0e0d27522a": "/project/library/example/std/pgate/1.2/LIB/0.630v_tt_0c_cw",
+      "0a66899d441bd9c91cfd74632156fb21": "/project/library/example/std/pgate/1.2/LEF",
+      "02309c1c4294dd6d7043ea10e35719a2": "/project/library/example/std/pgate/1.2/LIB/1.155v_1.155v_ff_125c_cw",
+      "8d0de66441201664fc0965ab526a5a8e": "/project/library/example/std/pgate/1.2/LIB/0.900v_0.900v_tt_-30c_cw",
+      "e15cf0f459d766da9c9b67a40ca963ce": "/project/library/example/std/pgate/1.2/DB/1.155v_1.155v_ff_125c_cb",
+      "a21aec41864678e82e8d0ddf758f1993": "/project/library/example/std/pgate/1.2/DB/0.630v_0.630v_tt_0c_cw",
+      "84e4a3b6b43ef38e0edcc4f74da638ae": "/project/library/example/std/pgate/1.2/LIB/1.000v_1.000v_ss_-30c_cw",
+      "e601a35e832b6e099a22fe10a622c6ef": "/project/library/example/std/pgate/1.2/DB/0.710v_tt_0c_cw",
+      "0789c050e76d2f1abf64b89d35ce50e4": "/project/library/example/std/pgate/1.2/DB/1.155v_1.155v_ff_-30c_cb",
+      "1420c9bb91ff9419988f2c415be41dab": "/project/library/example/std/pgate/1.2/LIB/0.900v_tt_125c_rcw",
+      "a83ba71a1c4f9a46642d14928d6f3d54": "/project/library/example/std/pgate/1.2/LIB/1.155v_1.155v_ff_-30c_cw",
+      "43211440946fb450f3cc2075a1ca048b": "/project/library/example/std/pgate/1.2/LIB/1.155v_ff_125c_cw",
+      "8ab12081052acdf03cde6254bd72de85": "/project/library/example/std/pgate/1.2/LIB/1.155v_ff_-30c_cw",
+      "0c7cf266c1fd5678f76d27973f800c4d": "/project/library/example/std/pgate/1.2/DB/1.155v_ff_125c_cw",
+      "04053772d64fed31fcd3e74f28e2976f": "/project/library/example/std/pgate/1.2/DB/0.900v_0.900v_tt_125c_rcw",
+      "bbf5819fdaacccf5cee9090066c74cdc": "/project/library/example/std/pgate/1.2/LIB/1.000v_ss_-30c_cw",
+      "4ac436222455150f0bb3a8b34d3084d2": "/project/library/example/std/pgate/1.2/DB/0.810v_tt_-30c_cw"
+    },
+    "cellset": {
+      "7165184baa30a30efc10db1a2b38299e": [
+        "pgate_ngpl_aobufp5t20p00",
+        "pgate_ngpl_aobufp5t24p00",
+        "pgate_ngpl_aoinvp5f20p00",
+        "pgate_ngpl_aoinvp5f24p00"
+      ],
+      "038678dac28e97e4ed7fa58a2a1c3c23": [
+        "pgate_ngpl_aobufp5t20p00",
+        "pgate_ngpl_aobufp5t24p00",
+        "pgate_ngpl_aoinvp5f20p00",
+        "pgate_ngpl_aoinvp5f24p00",
+        "pgate_vchmb1t02p00",
+        "pgate_vchmb1t04p00",
+        "pgate_vckmb1t02p00",
+        "pgate_vckmb1t04p00",
+        "pgate_vclmb1t02p00",
+        "pgate_vclmb1t04p00"
+      ],
+      "84395ac506793dd912bf82ecfa98bfd7": [
+        "pgate_vchmb1t02p00",
+        "pgate_vchmb1t04p00",
+        "pgate_vckmb1t02p00",
+        "pgate_vckmb1t04p00",
+        "pgate_vclmb1t02p00",
+        "pgate_vclmb1t04p00"
+      ],
+      "d41d8cd98f00b204e9800998ecf8427e": []
+    }
+  },
+  "file": {
+    "lef": {
+      "d69a6d2a5292660bfc33926e84f3dc3e": {
+        "member": {
+          "ipgroup": "pgate"
+        },
+        "type": "lef",
+        "cellset": "038678dac28e97e4ed7fa58a2a1c3c23",
+        "path": "0a66899d441bd9c91cfd74632156fb21",
+        "name": "pgate.lef",
+        "attribute": {}
+      }
+    },
+    "db": {
+      "03547a93a9192afc73666a837513d4a9": {
+        "member": {
+          "cornergroup": "pgate_clamps_1.155v_ff_-30c_cb"
+        },
+        "type": "db",
+        "cellset": "84395ac506793dd912bf82ecfa98bfd7",
+        "path": "50c1d6e5264a7a9c6a37dc6692bdcf05",
+        "name": "pgate_clamps_1.155v_ff_-30c_cb.db",
+        "attribute": {
+          "library": "pgate_clamps_1.155v_ff_-30c_cb"
+        }
+      },
+      "6bb40acb64db6f1c1b4491fa25536093": {
+        "member": {
+          "cornergroup": "pgate_alwayson_0.900v_tt_125c_rcw"
+        },
+        "type": "db",
+        "cellset": "7165184baa30a30efc10db1a2b38299e",
+        "path": "04053772d64fed31fcd3e74f28e2976f",
+        "name": "pgate_alwayson_0.900v_tt_125c_rcw.db",
+        "attribute": {
+          "library": "pgate_alwayson_0.900v_tt_125c_rcw"
+        }
+      },
+      "6661d495b72a24604d52b9fea491e0d2": {
+        "member": {
+          "cornergroup": "pgate_clamps_0.900v_tt_125c_rcw"
+        },
+        "type": "db",
+        "cellset": "84395ac506793dd912bf82ecfa98bfd7",
+        "path": "dd111be7b824ab1d3bab75ca4b087855",
+        "name": "pgate_clamps_0.900v_tt_125c_rcw.db",
+        "attribute": {
+          "library": "pgate_clamps_0.900v_tt_125c_rcw"
+        }
+      },
+      "492c7297358efcbf854af54ff3586ea4": {
+        "member": {
+          "cornergroup": "pgate_clamps_0.900v_tt_-30c_cw"
+        },
+        "type": "db",
+        "cellset": "84395ac506793dd912bf82ecfa98bfd7",
+        "path": "08d284c2374504a292a476ce08b32651",
+        "name": "pgate_clamps_0.900v_tt_-30c_cw.db",
+        "attribute": {
+          "library": "pgate_clamps_0.900v_tt_-30c_cw"
+        }
+      },
+      "09fcd3c386f411684c79378e0b5cddb9": {
+        "member": {
+          "cornergroup": "pgate_alwayson_0.810v_tt_-30c_cw"
+        },
+        "type": "db",
+        "cellset": "7165184baa30a30efc10db1a2b38299e",
+        "path": "b7418e37658bd346210079549744ca64",
+        "name": "pgate_alwayson_0.810v_tt_-30c_cw.db",
+        "attribute": {
+          "library": "pgate_alwayson_0.810v_tt_-30c_cw"
+        }
+      },
+      "b259f921c23407594196821a5fd50e7f": {
+        "member": {
+          "cornergroup": "pgate_alwayson_1.000v_ss_-30c_cw"
+        },
+        "type": "db",
+        "cellset": "7165184baa30a30efc10db1a2b38299e",
+        "path": "cf0516572027d0ecbbd60bbbaa8ed1b7",
+        "name": "pgate_alwayson_1.000v_ss_-30c_cw.db",
+        "attribute": {
+          "library": "pgate_alwayson_1.000v_ss_-30c_cw"
+        }
+      },
+      "df1b9b7a8e4dba5b1cc36ea514d010ad": {
+        "member": {
+          "cornergroup": "pgate_alwayson_1.155v_ff_-30c_cw"
+        },
+        "type": "db",
+        "cellset": "7165184baa30a30efc10db1a2b38299e",
+        "path": "1145b28432f17f55fa0903b0bf91f750",
+        "name": "pgate_alwayson_1.155v_ff_-30c_cw.db",
+        "attribute": {
+          "library": "pgate_alwayson_1.155v_ff_-30c_cw"
+        }
+      },
+      "46a2b420f1d53cd7e81ae779b3165a5a": {
+        "member": {
+          "cornergroup": "pgate_clamps_1.155v_ff_125c_cb"
+        },
+        "type": "db",
+        "cellset": "84395ac506793dd912bf82ecfa98bfd7",
+        "path": "7ba4fc5ae444286750a52bf87008ed0c",
+        "name": "pgate_clamps_1.155v_ff_125c_cb.db",
+        "attribute": {
+          "library": "pgate_clamps_1.155v_ff_125c_cb"
+        }
+      },
+      "ce82490b77c16b7946d58692f2e5d7e3": {
+        "member": {
+          "cornergroup": "pgate_clamps_0.630v_tt_0c_cw"
+        },
+        "type": "db",
+        "cellset": "84395ac506793dd912bf82ecfa98bfd7",
+        "path": "d4ef14d2e5dc41bb6eb8cfaaa77bdeb8",
+        "name": "pgate_clamps_0.630v_tt_0c_cw.db",
+        "attribute": {
+          "library": "pgate_clamps_0.630v_tt_0c_cw"
+        }
+      },
+      "3cc96a00a75a65d74a960c33f670f4de": {
+        "member": {
+          "cornergroup": "pgate_alwayson_1.155v_ff_125c_cb"
+        },
+        "type": "db",
+        "cellset": "7165184baa30a30efc10db1a2b38299e",
+        "path": "e15cf0f459d766da9c9b67a40ca963ce",
+        "name": "pgate_alwayson_1.155v_ff_125c_cb.db",
+        "attribute": {
+          "library": "pgate_alwayson_1.155v_ff_125c_cb"
+        }
+      },
+      "c4f34c2196343e48af0538ea2800ea45": {
+        "member": {
+          "cornergroup": "pgate_alwayson_0.900v_tt_-30c_cw"
+        },
+        "type": "db",
+        "cellset": "7165184baa30a30efc10db1a2b38299e",
+        "path": "dded2202fda6c4b8d7ebee2c1833b9f2",
+        "name": "pgate_alwayson_0.900v_tt_-30c_cw.db",
+        "attribute": {
+          "library": "pgate_alwayson_0.900v_tt_-30c_cw"
+        }
+      },
+      "90ba086d885045eab0134725c5594956": {
+        "member": {
+          "cornergroup": "pgate_clamps_1.000v_ss_-30c_cw"
+        },
+        "type": "db",
+        "cellset": "84395ac506793dd912bf82ecfa98bfd7",
+        "path": "f30b8c47975e653342e926256a374443",
+        "name": "pgate_clamps_1.000v_ss_-30c_cw.db",
+        "attribute": {
+          "library": "pgate_clamps_1.000v_ss_-30c_cw"
+        }
+      },
+      "8e5b97761610ae0dc921d3c19bf40ac3": {
+        "member": {
+          "cornergroup": "pgate_alwayson_1.155v_ff_-30c_cb"
+        },
+        "type": "db",
+        "cellset": "7165184baa30a30efc10db1a2b38299e",
+        "path": "0789c050e76d2f1abf64b89d35ce50e4",
+        "name": "pgate_alwayson_1.155v_ff_-30c_cb.db",
+        "attribute": {
+          "library": "pgate_alwayson_1.155v_ff_-30c_cb"
+        }
+      },
+      "2615ad1deaa9b323941030ca6d33a1c7": {
+        "member": {
+          "cornergroup": "pgate_alwayson_0.630v_tt_0c_cw"
+        },
+        "type": "db",
+        "cellset": "7165184baa30a30efc10db1a2b38299e",
+        "path": "a21aec41864678e82e8d0ddf758f1993",
+        "name": "pgate_alwayson_0.630v_tt_0c_cw.db",
+        "attribute": {
+          "library": "pgate_alwayson_0.630v_tt_0c_cw"
+        }
+      },
+      "d3be1761b08e49190381c76a1dd60cb9": {
+        "member": {
+          "cornergroup": "pgate_clamps_0.810v_tt_-30c_cw"
+        },
+        "type": "db",
+        "cellset": "84395ac506793dd912bf82ecfa98bfd7",
+        "path": "4ac436222455150f0bb3a8b34d3084d2",
+        "name": "pgate_clamps_0.810v_tt_-30c_cw.db",
+        "attribute": {
+          "library": "pgate_clamps_0.810v_tt_-30c_cw"
+        }
+      },
+      "043090b4b141bbfc46de41a935168fa0": {
+        "member": {
+          "cornergroup": "pgate_clamps_1.155v_ff_125c_cw"
+        },
+        "type": "db",
+        "cellset": "84395ac506793dd912bf82ecfa98bfd7",
+        "path": "0c7cf266c1fd5678f76d27973f800c4d",
+        "name": "pgate_clamps_1.155v_ff_125c_cw.db",
+        "attribute": {
+          "library": "pgate_clamps_1.155v_ff_125c_cw"
+        }
+      },
+      "1729b6c300efd652279339f2a861bbbb": {
+        "member": {
+          "cornergroup": "pgate_clamps_0.710v_tt_0c_cw"
+        },
+        "type": "db",
+        "cellset": "84395ac506793dd912bf82ecfa98bfd7",
+        "path": "e601a35e832b6e099a22fe10a622c6ef",
+        "name": "pgate_clamps_0.710v_tt_0c_cw.db",
+        "attribute": {
+          "library": "pgate_clamps_0.710v_tt_0c_cw"
+        }
+      },
+      "f1dc8f4d7336c3dd68fa8cfc4c1fc489": {
+        "member": {
+          "cornergroup": "pgate_clamps_1.155v_ff_-30c_cw"
+        },
+        "type": "db",
+        "cellset": "84395ac506793dd912bf82ecfa98bfd7",
+        "path": "0549b01ad04441e2e617cfc093078f76",
+        "name": "pgate_clamps_1.155v_ff_-30c_cw.db",
+        "attribute": {
+          "library": "pgate_clamps_1.155v_ff_-30c_cw"
+        }
+      },
+      "73e7e95701d025425515873d2e3f454c": {
+        "member": {},
+        "type": "db",
+        "cellset": "7165184baa30a30efc10db1a2b38299e",
+        "path": "ce13e9cd5c52e4d8d7dc0c043b002321",
+        "name": "pgate_alwayson_1.155v_ff_125c_cw.db",
+        "attribute": {
+          "library": "pgate_alwayson_1.155v_ff_125c_cw"
+        }
+      },
+      "655dba94d6b44d352b71db4b8cfd771f": {
+        "member": {
+          "cornergroup": "pgate_alwayson_0.710v_tt_0c_cw"
+        },
+        "type": "db",
+        "cellset": "7165184baa30a30efc10db1a2b38299e",
+        "path": "b9e7911de1ac46f2ae4927fc69a69fa6",
+        "name": "pgate_alwayson_0.710v_tt_0c_cw.db",
+        "attribute": {
+          "library": "pgate_alwayson_0.710v_tt_0c_cw"
+        }
+      }
+    },
+    "lib": {
+      "fd539280e76e0fb15a3fd9f5e06e7816": {
+        "member": {
+          "cornergroup": "pgate_alwayson_1.155v_ff_-30c_cw"
+        },
+        "type": "lib",
+        "cellset": "7165184baa30a30efc10db1a2b38299e",
+        "path": "a83ba71a1c4f9a46642d14928d6f3d54",
+        "name": "pgate_alwayson_1.155v_ff_-30c_cw.lib",
+        "attribute": {
+          "library": "pgate_alwayson_1.155v_ff_-30c_cw"
+        }
+      },
+      "a1af4dbba942bdd4be5a59bfde654124": {
+        "member": {
+          "cornergroup": "pgate_clamps_1.000v_ss_-30c_cw"
+        },
+        "type": "lib",
+        "cellset": "84395ac506793dd912bf82ecfa98bfd7",
+        "path": "bbf5819fdaacccf5cee9090066c74cdc",
+        "name": "pgate_clamps_1.000v_ss_-30c_cw.lib",
+        "attribute": {
+          "library": "pgate_clamps_1.000v_ss_-30c_cw"
+        }
+      },
+      "de252fc69f2b5bfd9ec5e0a5f95b26e4": {
+        "member": {
+          "cornergroup": "pgate_clamps_1.155v_ff_-30c_cb"
+        },
+        "type": "lib",
+        "cellset": "84395ac506793dd912bf82ecfa98bfd7",
+        "path": "01c6f138eb7bb35e141789a86840c342",
+        "name": "pgate_clamps_1.155v_ff_-30c_cb.lib",
+        "attribute": {
+          "library": "pgate_clamps_1.155v_ff_-30c_cb"
+        }
+      },
+      "db4b4392b1f2f43fa8b64e4a49a66ff4": {
+        "member": {},
+        "type": "lib",
+        "cellset": "d41d8cd98f00b204e9800998ecf8427e",
+        "path": "90c1b1c4df77b0120fcc5b8ebe91a029",
+        "name": "pgate_clamps_0.710v_tt_0c_cw.lib",
+        "attribute": {
+          "library": "pgate_clamps_0.710v_tt_0c_cw"
+        }
+      },
+      "630682f064c5ff4dc905181afd5486b7": {
+        "member": {
+          "cornergroup": "pgate_clamps_0.630v_tt_0c_cw"
+        },
+        "type": "lib",
+        "cellset": "84395ac506793dd912bf82ecfa98bfd7",
+        "path": "ff3eb4bdf65adce531822c0e0d27522a",
+        "name": "pgate_clamps_0.630v_tt_0c_cw.lib",
+        "attribute": {
+          "library": "pgate_clamps_0.630v_tt_0c_cw"
+        }
+      },
+      "8a86303d677e03d909d708c8d964e658": {
+        "member": {
+          "cornergroup": "pgate_clamps_1.155v_ff_125c_cb"
+        },
+        "type": "lib",
+        "cellset": "84395ac506793dd912bf82ecfa98bfd7",
+        "path": "ca5e928b6041f15086a9e34692fc3ebe",
+        "name": "pgate_clamps_1.155v_ff_125c_cb.lib",
+        "attribute": {
+          "library": "pgate_clamps_1.155v_ff_125c_cb"
+        }
+      },
+      "c7c52d0a246526723668c4b498b9f706": {
+        "member": {
+          "cornergroup": "pgate_alwayson_0.810v_tt_-30c_cw"
+        },
+        "type": "lib",
+        "cellset": "7165184baa30a30efc10db1a2b38299e",
+        "path": "ccb069e033db7f9d4cf38759a5f8b10f",
+        "name": "pgate_alwayson_0.810v_tt_-30c_cw.lib",
+        "attribute": {
+          "library": "pgate_alwayson_0.810v_tt_-30c_cw"
+        }
+      },
+      "c39fbe2b90facbe41a5f12e897626680": {
+        "member": {
+          "cornergroup": "pgate_alwayson_0.900v_tt_125c_rcw"
+        },
+        "type": "lib",
+        "cellset": "7165184baa30a30efc10db1a2b38299e",
+        "path": "394415ede48c7f5524f810051b7d88eb",
+        "name": "pgate_alwayson_0.900v_tt_125c_rcw.lib",
+        "attribute": {
+          "library": "pgate_alwayson_0.900v_tt_125c_rcw"
+        }
+      },
+      "a978ed96dd5b11ae9b055c64e8b1ed5d": {
+        "member": {
+          "cornergroup": "pgate_alwayson_0.630v_tt_0c_cw"
+        },
+        "type": "lib",
+        "cellset": "7165184baa30a30efc10db1a2b38299e",
+        "path": "4abb21c967bd9b7f0487067f223cf40c",
+        "name": "pgate_alwayson_0.630v_tt_0c_cw.lib",
+        "attribute": {
+          "library": "pgate_alwayson_0.630v_tt_0c_cw"
+        }
+      },
+      "419518da73af960b4d1ed109f64a2000": {
+        "member": {
+          "cornergroup": "pgate_alwayson_0.710v_tt_0c_cw"
+        },
+        "type": "lib",
+        "cellset": "7165184baa30a30efc10db1a2b38299e",
+        "path": "d11571db29b5ceb6113e687c1e27466d",
+        "name": "pgate_alwayson_0.710v_tt_0c_cw.lib",
+        "attribute": {
+          "library": "pgate_alwayson_0.710v_tt_0c_cw"
+        }
+      },
+      "a9688aa2911248a136e4d0a892802c80": {
+        "member": {
+          "cornergroup": "pgate_alwayson_1.000v_ss_-30c_cw"
+        },
+        "type": "lib",
+        "cellset": "7165184baa30a30efc10db1a2b38299e",
+        "path": "84e4a3b6b43ef38e0edcc4f74da638ae",
+        "name": "pgate_alwayson_1.000v_ss_-30c_cw.lib",
+        "attribute": {
+          "library": "pgate_alwayson_1.000v_ss_-30c_cw"
+        }
+      },
+      "bfa1b6f00141ee773b66a76f0298b22c": {
+        "member": {
+          "cornergroup": "pgate_clamps_0.900v_tt_-30c_cw"
+        },
+        "type": "lib",
+        "cellset": "84395ac506793dd912bf82ecfa98bfd7",
+        "path": "3d65f5963f7c67cef7f1f68d3ea33336",
+        "name": "pgate_clamps_0.900v_tt_-30c_cw.lib",
+        "attribute": {
+          "library": "pgate_clamps_0.900v_tt_-30c_cw"
+        }
+      },
+      "78459a62d3b527f341aada39f23e0168": {
+        "member": {
+          "cornergroup": "pgate_clamps_0.900v_tt_125c_rcw"
+        },
+        "type": "lib",
+        "cellset": "84395ac506793dd912bf82ecfa98bfd7",
+        "path": "1420c9bb91ff9419988f2c415be41dab",
+        "name": "pgate_clamps_0.900v_tt_125c_rcw.lib",
+        "attribute": {
+          "library": "pgate_clamps_0.900v_tt_125c_rcw"
+        }
+      },
+      "e16df3a29c7857e861bc8e5624cc13af": {
+        "member": {
+          "cornergroup": "pgate_clamps_0.810v_tt_-30c_cw"
+        },
+        "type": "lib",
+        "cellset": "84395ac506793dd912bf82ecfa98bfd7",
+        "path": "645cd6342a097763c72abcd1feae7a1d",
+        "name": "pgate_clamps_0.810v_tt_-30c_cw.lib",
+        "attribute": {
+          "library": "pgate_clamps_0.810v_tt_-30c_cw"
+        }
+      },
+      "f24d9f50fc4cd385520144e05fc3cfc1": {
+        "member": {
+          "cornergroup": "pgate_alwayson_1.155v_ff_-30c_cb"
+        },
+        "type": "lib",
+        "cellset": "7165184baa30a30efc10db1a2b38299e",
+        "path": "03c7b2d1afbdebcd4a4c20d0135083b6",
+        "name": "pgate_alwayson_1.155v_ff_-30c_cb.lib",
+        "attribute": {
+          "library": "pgate_alwayson_1.155v_ff_-30c_cb"
+        }
+      },
+      "89b93522f924e396458439f0e6a4546a": {
+        "member": {
+          "cornergroup": "pgate_alwayson_1.155v_ff_125c_cb"
+        },
+        "type": "lib",
+        "cellset": "7165184baa30a30efc10db1a2b38299e",
+        "path": "5e3de81bb3a8a5136e82b34b39aa9710",
+        "name": "pgate_alwayson_1.155v_ff_125c_cb.lib",
+        "attribute": {
+          "library": "pgate_alwayson_1.155v_ff_125c_cb"
+        }
+      },
+      "5831fd588f22aa0b325f36bf6734ea8d": {
+        "member": {
+          "cornergroup": "pgate_alwayson_0.900v_tt_-30c_cw"
+        },
+        "type": "lib",
+        "cellset": "7165184baa30a30efc10db1a2b38299e",
+        "path": "8d0de66441201664fc0965ab526a5a8e",
+        "name": "pgate_alwayson_0.900v_tt_-30c_cw.lib",
+        "attribute": {
+          "library": "pgate_alwayson_0.900v_tt_-30c_cw"
+        }
+      },
+      "f5d29dd7163f28f907205d21d3e8b810": {
+        "member": {
+          "cornergroup": "pgate_clamps_1.155v_ff_-30c_cw"
+        },
+        "type": "lib",
+        "cellset": "84395ac506793dd912bf82ecfa98bfd7",
+        "path": "8ab12081052acdf03cde6254bd72de85",
+        "name": "pgate_clamps_1.155v_ff_-30c_cw.lib",
+        "attribute": {
+          "library": "pgate_clamps_1.155v_ff_-30c_cw"
+        }
+      },
+      "edec839bf00b778fde47492ae014d15b": {
+        "member": {
+          "cornergroup": "pgate_alwayson_1.155v_ff_125c_cw"
+        },
+        "type": "lib",
+        "cellset": "7165184baa30a30efc10db1a2b38299e",
+        "path": "02309c1c4294dd6d7043ea10e35719a2",
+        "name": "pgate_alwayson_1.155v_ff_125c_cw.lib",
+        "attribute": {
+          "library": "pgate_alwayson_1.155v_ff_125c_cw"
+        }
+      },
+      "a5de67a697b6bef86240b15ca03ae560": {
+        "member": {},
+        "type": "lib",
+        "cellset": "84395ac506793dd912bf82ecfa98bfd7",
+        "path": "43211440946fb450f3cc2075a1ca048b",
+        "name": "pgate_clamps_1.155v_ff_125c_cw.lib",
+        "attribute": {
+          "library": "pgate_clamps_1.155v_ff_125c_cw"
+        }
+      }
+    }
+  },
+  "group": {
+    "ipgroup": {
+      "pgate": {
+        "type": "ipgroup",
+        "file": {
+          "d69a6d2a5292660bfc33926e84f3dc3e": "lef"
+        },
+        "cellset": "038678dac28e97e4ed7fa58a2a1c3c23",
+        "member": {},
+        "name": "pgate",
+        "attribute": {},
+        "group": {
+          "pgate_clamps": "libgroup",
+          "pgate_alwayson": "libgroup"
+        }
+      }
+    },
+    "libgroup": {
+      "pgate_clamps": {
+        "type": "libgroup",
+        "file": {},
+        "cellset": "84395ac506793dd912bf82ecfa98bfd7",
+        "member": {
+          "ipgroup": "pgate"
+        },
+        "name": "pgate_clamps",
+        "attribute": {},
+        "group": {
+          "pgate_clamps_1.000v_ss_-30c_cw": "cornergroup",
+          "pgate_clamps_1.155v_ff_-30c_cb": "cornergroup",
+          "pgate_clamps_1.155v_ff_-30c_cw": "cornergroup",
+          "pgate_clamps_0.900v_tt_-30c_cw": "cornergroup",
+          "pgate_clamps_0.630v_tt_0c_cw": "cornergroup",
+          "pgate_clamps_0.810v_tt_-30c_cw": "cornergroup",
+          "pgate_clamps_0.710v_tt_0c_cw": "cornergroup",
+          "pgate_clamps_0.900v_tt_125c_rcw": "cornergroup",
+          "pgate_clamps_1.155v_ff_125c_cb": "cornergroup",
+          "pgate_clamps_1.155v_ff_125c_cw": "cornergroup"
+        }
+      },
+      "pgate_alwayson": {
+        "type": "libgroup",
+        "file": {},
+        "cellset": "7165184baa30a30efc10db1a2b38299e",
+        "member": {
+          "ipgroup": "pgate"
+        },
+        "name": "pgate_alwayson",
+        "attribute": {},
+        "group": {
+          "pgate_alwayson_0.630v_tt_0c_cw": "cornergroup",
+          "pgate_alwayson_1.155v_ff_125c_cb": "cornergroup",
+          "pgate_alwayson_0.810v_tt_-30c_cw": "cornergroup",
+          "pgate_alwayson_1.155v_ff_-30c_cw": "cornergroup",
+          "pgate_alwayson_1.155v_ff_-30c_cb": "cornergroup",
+          "pgate_alwayson_0.900v_tt_125c_rcw": "cornergroup",
+          "pgate_alwayson_1.000v_ss_-30c_cw": "cornergroup",
+          "pgate_alwayson_0.900v_tt_-30c_cw": "cornergroup",
+          "pgate_alwayson_1.155v_ff_125c_cw": "cornergroup",
+          "pgate_alwayson_0.710v_tt_0c_cw": "cornergroup"
+        }
+      }
+    },
+    "cornergroup": {
+      "pgate_alwayson_0.630v_tt_0c_cw": {
+        "type": "cornergroup",
+        "file": {
+          "2615ad1deaa9b323941030ca6d33a1c7": "db",
+          "a978ed96dd5b11ae9b055c64e8b1ed5d": "lib"
+        },
+        "cellset": "7165184baa30a30efc10db1a2b38299e",
+        "member": {
+          "libgroup": "pgate_alwayson"
+        },
+        "name": "pgate_alwayson_0.630v_tt_0c_cw",
+        "attribute": {
+          "library": "pgate_alwayson_0.630v_tt_0c_cw"
+        },
+        "group": {}
+      },
+      "pgate_clamps_1.155v_ff_-30c_cb": {
+        "type": "cornergroup",
+        "file": {
+          "03547a93a9192afc73666a837513d4a9": "db",
+          "de252fc69f2b5bfd9ec5e0a5f95b26e4": "lib"
+        },
+        "cellset": "84395ac506793dd912bf82ecfa98bfd7",
+        "member": {
+          "libgroup": "pgate_clamps"
+        },
+        "name": "pgate_clamps_1.155v_ff_-30c_cb",
+        "attribute": {
+          "library": "pgate_clamps_1.155v_ff_-30c_cb"
+        },
+        "group": {}
+      },
+      "pgate_alwayson_1.155v_ff_-30c_cw": {
+        "type": "cornergroup",
+        "file": {
+          "fd539280e76e0fb15a3fd9f5e06e7816": "lib",
+          "df1b9b7a8e4dba5b1cc36ea514d010ad": "db"
+        },
+        "cellset": "7165184baa30a30efc10db1a2b38299e",
+        "member": {
+          "libgroup": "pgate_alwayson"
+        },
+        "name": "pgate_alwayson_1.155v_ff_-30c_cw",
+        "attribute": {
+          "library": "pgate_alwayson_1.155v_ff_-30c_cw"
+        },
+        "group": {}
+      },
+      "pgate_clamps_0.630v_tt_0c_cw": {
+        "type": "cornergroup",
+        "file": {
+          "ce82490b77c16b7946d58692f2e5d7e3": "db",
+          "630682f064c5ff4dc905181afd5486b7": "lib"
+        },
+        "cellset": "84395ac506793dd912bf82ecfa98bfd7",
+        "member": {
+          "libgroup": "pgate_clamps"
+        },
+        "name": "pgate_clamps_0.630v_tt_0c_cw",
+        "attribute": {
+          "library": "pgate_clamps_0.630v_tt_0c_cw"
+        },
+        "group": {}
+      },
+      "pgate_alwayson_1.155v_ff_-30c_cb": {
+        "type": "cornergroup",
+        "file": {
+          "8e5b97761610ae0dc921d3c19bf40ac3": "db",
+          "f24d9f50fc4cd385520144e05fc3cfc1": "lib"
+        },
+        "cellset": "7165184baa30a30efc10db1a2b38299e",
+        "member": {
+          "libgroup": "pgate_alwayson"
+        },
+        "name": "pgate_alwayson_1.155v_ff_-30c_cb",
+        "attribute": {
+          "library": "pgate_alwayson_1.155v_ff_-30c_cb"
+        },
+        "group": {}
+      },
+      "pgate_clamps_0.810v_tt_-30c_cw": {
+        "type": "cornergroup",
+        "file": {
+          "d3be1761b08e49190381c76a1dd60cb9": "db",
+          "e16df3a29c7857e861bc8e5624cc13af": "lib"
+        },
+        "cellset": "84395ac506793dd912bf82ecfa98bfd7",
+        "member": {
+          "libgroup": "pgate_clamps"
+        },
+        "name": "pgate_clamps_0.810v_tt_-30c_cw",
+        "attribute": {
+          "library": "pgate_clamps_0.810v_tt_-30c_cw"
+        },
+        "group": {}
+      },
+      "pgate_clamps_1.155v_ff_125c_cb": {
+        "type": "cornergroup",
+        "file": {
+          "46a2b420f1d53cd7e81ae779b3165a5a": "db",
+          "8a86303d677e03d909d708c8d964e658": "lib"
+        },
+        "cellset": "84395ac506793dd912bf82ecfa98bfd7",
+        "member": {
+          "libgroup": "pgate_clamps"
+        },
+        "name": "pgate_clamps_1.155v_ff_125c_cb",
+        "attribute": {
+          "library": "pgate_clamps_1.155v_ff_125c_cb"
+        },
+        "group": {}
+      },
+      "pgate_alwayson_0.810v_tt_-30c_cw": {
+        "type": "cornergroup",
+        "file": {
+          "09fcd3c386f411684c79378e0b5cddb9": "db",
+          "c7c52d0a246526723668c4b498b9f706": "lib"
+        },
+        "cellset": "7165184baa30a30efc10db1a2b38299e",
+        "member": {
+          "libgroup": "pgate_alwayson"
+        },
+        "name": "pgate_alwayson_0.810v_tt_-30c_cw",
+        "attribute": {
+          "library": "pgate_alwayson_0.810v_tt_-30c_cw"
+        },
+        "group": {}
+      },
+      "pgate_alwayson_0.900v_tt_125c_rcw": {
+        "type": "cornergroup",
+        "file": {
+          "6bb40acb64db6f1c1b4491fa25536093": "db",
+          "c39fbe2b90facbe41a5f12e897626680": "lib"
+        },
+        "cellset": "7165184baa30a30efc10db1a2b38299e",
+        "member": {
+          "libgroup": "pgate_alwayson"
+        },
+        "name": "pgate_alwayson_0.900v_tt_125c_rcw",
+        "attribute": {
+          "library": "pgate_alwayson_0.900v_tt_125c_rcw"
+        },
+        "group": {}
+      },
+      "pgate_alwayson_1.155v_ff_125c_cw": {
+        "type": "cornergroup",
+        "file": {
+          "73e7e95701d025425515873d2e3f454c": "db",
+          "edec839bf00b778fde47492ae014d15b": "lib"
+        },
+        "cellset": "7165184baa30a30efc10db1a2b38299e",
+        "member": {
+          "libgroup": "pgate_alwayson"
+        },
+        "name": "pgate_alwayson_1.155v_ff_125c_cw",
+        "attribute": {
+          "library": "pgate_alwayson_1.155v_ff_125c_cw"
+        },
+        "group": {}
+      },
+      "pgate_clamps_1.155v_ff_125c_cw": {
+        "type": "cornergroup",
+        "file": {
+          "a5de67a697b6bef86240b15ca03ae560": "lib",
+          "043090b4b141bbfc46de41a935168fa0": "db"
+        },
+        "cellset": "84395ac506793dd912bf82ecfa98bfd7",
+        "member": {
+          "libgroup": "pgate_clamps"
+        },
+        "name": "pgate_clamps_1.155v_ff_125c_cw",
+        "attribute": {
+          "library": "pgate_clamps_1.155v_ff_125c_cw"
+        },
+        "group": {}
+      },
+      "pgate_alwayson_0.710v_tt_0c_cw": {
+        "type": "cornergroup",
+        "file": {
+          "419518da73af960b4d1ed109f64a2000": "lib",
+          "655dba94d6b44d352b71db4b8cfd771f": "db"
+        },
+        "cellset": "7165184baa30a30efc10db1a2b38299e",
+        "member": {
+          "libgroup": "pgate_alwayson"
+        },
+        "name": "pgate_alwayson_0.710v_tt_0c_cw",
+        "attribute": {
+          "library": "pgate_alwayson_0.710v_tt_0c_cw"
+        },
+        "group": {}
+      },
+      "pgate_clamps_1.155v_ff_-30c_cw": {
+        "type": "cornergroup",
+        "file": {
+          "f1dc8f4d7336c3dd68fa8cfc4c1fc489": "db",
+          "f5d29dd7163f28f907205d21d3e8b810": "lib"
+        },
+        "cellset": "84395ac506793dd912bf82ecfa98bfd7",
+        "member": {
+          "libgroup": "pgate_clamps"
+        },
+        "name": "pgate_clamps_1.155v_ff_-30c_cw",
+        "attribute": {
+          "library": "pgate_clamps_1.155v_ff_-30c_cw"
+        },
+        "group": {}
+      },
+      "pgate_alwayson_0.900v_tt_-30c_cw": {
+        "type": "cornergroup",
+        "file": {
+          "5831fd588f22aa0b325f36bf6734ea8d": "lib",
+          "c4f34c2196343e48af0538ea2800ea45": "db"
+        },
+        "cellset": "7165184baa30a30efc10db1a2b38299e",
+        "member": {
+          "libgroup": "pgate_alwayson"
+        },
+        "name": "pgate_alwayson_0.900v_tt_-30c_cw",
+        "attribute": {
+          "library": "pgate_alwayson_0.900v_tt_-30c_cw"
+        },
+        "group": {}
+      },
+      "pgate_clamps_1.000v_ss_-30c_cw": {
+        "type": "cornergroup",
+        "file": {
+          "a1af4dbba942bdd4be5a59bfde654124": "lib",
+          "90ba086d885045eab0134725c5594956": "db"
+        },
+        "cellset": "84395ac506793dd912bf82ecfa98bfd7",
+        "member": {
+          "libgroup": "pgate_clamps"
+        },
+        "name": "pgate_clamps_1.000v_ss_-30c_cw",
+        "attribute": {
+          "library": "pgate_clamps_1.000v_ss_-30c_cw"
+        },
+        "group": {}
+      },
+      "pgate_alwayson_1.155v_ff_125c_cb": {
+        "type": "cornergroup",
+        "file": {
+          "89b93522f924e396458439f0e6a4546a": "lib",
+          "3cc96a00a75a65d74a960c33f670f4de": "db"
+        },
+        "cellset": "7165184baa30a30efc10db1a2b38299e",
+        "member": {
+          "libgroup": "pgate_alwayson"
+        },
+        "name": "pgate_alwayson_1.155v_ff_125c_cb",
+        "attribute": {
+          "library": "pgate_alwayson_1.155v_ff_125c_cb"
+        },
+        "group": {}
+      },
+      "pgate_clamps_0.710v_tt_0c_cw": {
+        "type": "cornergroup",
+        "file": {
+          "1729b6c300efd652279339f2a861bbbb": "db",
+          "db4b4392b1f2f43fa8b64e4a49a66ff4": "lib"
+        },
+        "cellset": "84395ac506793dd912bf82ecfa98bfd7",
+        "member": {
+          "libgroup": "pgate_clamps"
+        },
+        "name": "pgate_clamps_0.710v_tt_0c_cw",
+        "attribute": {
+          "library": "pgate_clamps_0.710v_tt_0c_cw"
+        },
+        "group": {}
+      },
+      "pgate_clamps_0.900v_tt_125c_rcw": {
+        "type": "cornergroup",
+        "file": {
+          "6661d495b72a24604d52b9fea491e0d2": "db",
+          "78459a62d3b527f341aada39f23e0168": "lib"
+        },
+        "cellset": "84395ac506793dd912bf82ecfa98bfd7",
+        "member": {
+          "libgroup": "pgate_clamps"
+        },
+        "name": "pgate_clamps_0.900v_tt_125c_rcw",
+        "attribute": {
+          "library": "pgate_clamps_0.900v_tt_125c_rcw"
+        },
+        "group": {}
+      },
+      "pgate_alwayson_1.000v_ss_-30c_cw": {
+        "type": "cornergroup",
+        "file": {
+          "a9688aa2911248a136e4d0a892802c80": "lib",
+          "b259f921c23407594196821a5fd50e7f": "db"
+        },
+        "cellset": "7165184baa30a30efc10db1a2b38299e",
+        "member": {
+          "libgroup": "pgate_alwayson"
+        },
+        "name": "pgate_alwayson_1.000v_ss_-30c_cw",
+        "attribute": {
+          "library": "pgate_alwayson_1.000v_ss_-30c_cw"
+        },
+        "group": {}
+      },
+      "pgate_clamps_0.900v_tt_-30c_cw": {
+        "type": "cornergroup",
+        "file": {
+          "492c7297358efcbf854af54ff3586ea4": "db",
+          "bfa1b6f00141ee773b66a76f0298b22c": "lib"
+        },
+        "cellset": "84395ac506793dd912bf82ecfa98bfd7",
+        "member": {
+          "libgroup": "pgate_clamps"
+        },
+        "name": "pgate_clamps_0.900v_tt_-30c_cw",
+        "attribute": {
+          "library": "pgate_clamps_0.900v_tt_-30c_cw"
+        },
+        "group": {}
+      }
+    }
+  }
+}
