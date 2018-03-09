@@ -168,3 +168,6 @@ Writing Fixtures/pgate.rebuilt.json
 Gamma, Erich, Richard Helm, Ralph Johnson, and John Vlissides. _Design Patterns:
 Elements of Reusabel Object-Oriented Software_, New York: Addison-Wesley, 1994.
 
+## Note
+
+This project was undertaken for a course in software design patterns offered by UC San Diego Extension.
